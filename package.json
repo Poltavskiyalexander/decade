@@ -1,0 +1,36 @@
+{
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/Poltavskiyalexander/decade",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /decade/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Poltavskiyalexander/decade"
+  },
+  "staticFiles": {
+    "staticPath": "./src/static"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "rimraf": "^4.1.2"
+  }
+}
