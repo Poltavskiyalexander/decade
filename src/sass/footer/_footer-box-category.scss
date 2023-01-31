@@ -1,0 +1,21 @@
+.footer-box-category{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+}
+.footer-box-category::after{
+    content: '';
+        display: block;
+        position: absolute;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        transform: rotate(45deg);
+        transition: transform .3s;
+        width: 10px;
+        height: 10px;
+        top: 3px;
+        right: 5px;
+}
