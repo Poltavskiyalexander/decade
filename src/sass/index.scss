@@ -1,3 +1,16 @@
-@import './fonts';
-@import './_welcome';
-@import './header/logo'
+// Импортируем базовые файлы
+@import './base/variables.scss';
+@import './base/healpers.scss';
+@import './base/fonts.scss';
+@import './base/functions.scss';
+@import './base/mixins.scss';
+@import './base/placeholders.scss';
+@import './base/normalize.scss';
+
+// Импортируем слои документа
+@import './layout/common.scss';
+@import './layout/footer.scss';
+
+// Импортируем компоненты
+@import './components/social.scss';
+// @import './_welcome';
